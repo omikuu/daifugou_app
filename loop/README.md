@@ -40,3 +40,25 @@ git config --global core.editor "code --wait"
 
 # set up
 node.jsが動く環境
+
+# ドメイン知識
+
+## youtubeのリンクには２種類ある
+1. 標準リンク（watch形式）
+    例:
+    https://www.youtube.com/watch?v=rm3nkawKqW8
+    特徴:
+    youtube.comドメイン
+    クエリパラメータvに動画IDが入っている
+    動画ページでよく使われる
+2. 短縮リンク（youtu.be形式）
+    例:
+    https://youtu.be/rm3nkawKqW8
+    特徴:
+    youtu.beドメイン
+    パス部分に動画IDが入っている
+    シェア用などで使われる
+
+## YouTubeの動画を埋め込む方法
+YouTube IFrame Player API
+<iframe>でプレイヤーを表示する
