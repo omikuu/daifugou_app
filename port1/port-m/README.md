@@ -34,3 +34,24 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+# deploy on s3
+next.config.ts >>
+
+'''
+import type { NextConfig } from "next";
+
+const nextConfig: NextConfig = {
+  /* config options here */
+   output: "export",
+};
+
+export default nextConfig;
+
+'''
+
+'npm run build'
+
+out/フォルダ以下をアップロードする
+
+aws *GnLNEL){P^6w2?
